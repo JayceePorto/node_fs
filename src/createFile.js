@@ -1,4 +1,4 @@
-const { wrtieFile } = require("fs");
+const { writeFile } = require("fs");
 
 writeFile("./HelloWorld.txt", "Hello World!", (err) => {
     if (err) {
